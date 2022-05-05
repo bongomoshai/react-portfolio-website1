@@ -1,0 +1,44 @@
+/* expcontain:skillexp
+expfront:expskill
+expcont:expcontent 
+background: rgba(41, 133, 219, 0.669);
+var(--color-bg-variant)
+*/
+.skill__exp{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+}
+.skill__exp > div{
+    background: rgba(41, 133, 219, 0.669);
+    color:whitesmoke;
+    padding:2.4rem ; 
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.skill__exp > div:hover{
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+    color: rgba(18, 222, 222, 0.943);
+
+}
+.skill__exp > div h4{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.exp__content{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.details{
+    /* display: flex; */
+    gap: 1rem;
+} 
+/* .text-light{
+    color: rgba(255,255,255,0.6);
+    color:black;
+
+} */
